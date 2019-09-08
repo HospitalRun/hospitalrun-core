@@ -1,0 +1,41 @@
+{
+  "name": "@hospitalrun-org/core",
+  "version": "1.0.0",
+  "description": "Shared Interfaces and Models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HospitalRun/hospitalrun-core.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HospitalRun/hospitalrun-core/issues"
+  },
+  "homepage": "https://github.com/HospitalRun/hospitalrun-core#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/core": "^8.1.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/release-notes-generator": "^7.3.0",
+    "commitlint-config-gitmoji": "^1.0.1",
+    "cz-emoji": "^1.1.2",
+    "dateformat": "^3.0.3",
+    "husky": "^3.0.5",
+    "semantic-release-gitmoji": "^1.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm test"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  }
+}
