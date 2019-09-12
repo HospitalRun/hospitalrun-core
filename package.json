@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "tsc",
+    "build": "tsc && npm run build:types",
+    "build:types": "tsc --declaration --outDir typings --emitDeclarationOnly",
     "prepare": "npm run build"
   },
   "repository": {
