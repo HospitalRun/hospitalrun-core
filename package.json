@@ -1,5 +1,5 @@
 {
-  "name": "@hospitalrun-org/core",
+  "name": "@hospitalrun/core",
   "version": "1.0.0",
   "description": "Shared Interfaces and Models",
   "main": "./dist/index.js",
