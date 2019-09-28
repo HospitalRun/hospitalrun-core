@@ -9,6 +9,7 @@
     "typings"
   ],
   "scripts": {
+    "commit": "npx git-cz",
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "tsc",
     "prepare": "npm run build"
