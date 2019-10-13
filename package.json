@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/HospitalRun/hospitalrun-core#readme",
   "devDependencies": {
-    "@commitlint/cli": "~8.1.0",
-    "@commitlint/core": "~8.1.0",
+    "@commitlint/cli": "~8.2.0",
+    "@commitlint/core": "~8.2.0",
     "@semantic-release/changelog": "~3.0.4",
     "@semantic-release/release-notes-generator": "~7.3.0",
     "@types/pouchdb": "~6.4.0",
