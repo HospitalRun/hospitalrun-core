@@ -1,0 +1,65 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "appointment.json",
+    "title": "Appointment",
+    "description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s). Only proposed or cancelled appointments can be missing start/end dates. Either start and end are specified, or neither",
+    "type": "object",
+    "properties": {
+        "status": {
+            "$id": "#/properties/status",
+            "type": "string",
+            "title": "The status object",
+            "enum": [
+                "proposed",
+                "pending",
+                "booked",
+                "arrived",
+                "fulfilled",
+                "cancelled",
+                "noshow"
+            ]
+        },
+        "type": { "$ref": "elements/codeableconcept.json" },
+        "reason": { "$ref": "elements/codeableconcept.json" },
+        "priority": { "$ref": "primitives/unsignedint.json" },
+        "description": "string",
+        "start": { "$ref": "primitives/instant.json" },
+        "end": { "$ref": "primitives/instant.json" },
+        "minutesDuration": { "$ref": "primitives/positiveint.json" },
+        "slot": { "$ref": "elements/reference.json" },
+        "comment": {
+            "$id": "#/properties/comment",
+            "type": "string",
+            "title": "The comment schema",
+            "default": ""
+        },
+        "participant": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": { "$ref": "elements/codeableconcept.json" },
+                    "actor": { "$ref": "elements/reference.json" },
+                    "required": {
+                        "type": "object",
+                        "enum": [
+                            "required",
+                            "optional",
+                            "information-only"
+                        ]
+                    },
+                    "status": {
+                        "type": "object",
+                        "enum": [
+                            "accepted",
+                            "declined",
+                            "tentative",
+                            "needs-action"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
