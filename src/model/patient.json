@@ -1,0 +1,84 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "patient.json",
+    "title": "Patient",
+    "type": "object",
+    "description": "Information about an individual or animal receiving health care services",
+    "properties": {
+        "identifier": { "$ref": "elements/identifier.json" },
+        "active": {
+            "type": "boolean",
+            "description": "Whether this patient's record is in active use"
+        },
+        "name": { "$ref": "elements/humanName.json" },
+        "telecom": { "$ref": "primitives/contactPoint.json" },
+        "gender": { "$ref": "primitives/gender.json" },
+        "birthDate": { "$ref": "primitives/date.json" },
+        "deceasedBoolean": "boolean",
+        "deceasedDateTime": { "$ref": "primitives/dateTime.json" },
+        "address": { "$ref": "elements/address.json" },
+        "maritalStatus": { "$ref": "elements/codeableconcept.json" },
+        "multipleBirthBoolean": "boolean",
+        "multipleBirthInteger": "integer",
+        "photo": { "$ref": "elements/attachment.json" },
+        "contact": {
+            "description": "A contact party (e.g. guardian, partner, friend) for the patient SHALL at least contain a contact's details or a reference to an organization",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "relationship": { "$ref": "elements/codeableconcept.json" },
+                    "name": { "$ref": "elements/humanName.json" },
+                    "telecom": { "$ref": "primitives/contactPoint.json" },
+                    "address": { "$ref": "elements/address.json" },
+                    "gender": { "$ref": "primitives/gender.json" },
+                    "organization": { "$ref": "elements/reference.json" },
+                    "period": {
+                        "description": "The period during which this contact person or organization is valid to be contacted relating to this patient",
+                        "item": { "$ref": "elements/period.json" }
+                    }
+                }
+            }
+        },
+        "animal?": {
+            "description": "This patient is known to be an animal (non-human)",
+            "type": "object",
+            "properties": {
+                "species": { "$ref": "elements/codeableconcept.json" },
+                "breed": { "$ref": "elements/codeableconcept.json" },
+                "genderStatus": { "$ref": "elements/codeableconcept.json" }
+            }
+        },
+        "communication": {
+            "description": "A list of Languages which may be used to communicate with the patient about his or her health",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "language": { "$ref": "elements/codeableconcept.json" },
+                    "preferred": "boolean"
+                }
+            }
+        },
+        "careProvider": { "$ref": "elements/reference.json" },
+        "managingOrganization": {
+            "description": "Organization that is the custodian of the patient record",
+            "item": { "$ref": "elements/reference.json" }
+        },
+        "link": {
+            "description": "Link to another patient resource that concerns the same actual person",
+            "type": "object",
+            "properties": {
+                "other": { "$ref": "elements/reference.json" },
+                "type": {
+                    "item": { "$ref": "primitives/code.json" },
+                    "enum": [
+                        "replace",
+                        "refer",
+                        "seealso"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "object",
+    "properties": {
+        "start": { "$ref": "../primitives/dateTime.json" },
+        "end": { "$ref": "../primitives/dateTime.json" }
+    }
+}

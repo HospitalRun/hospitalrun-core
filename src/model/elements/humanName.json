@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "use": {
+            "type": { "$ref": "../primitives/code.json" },
+            "enum": [
+                "usual",
+                "official",
+                "temp",
+                "nickname",
+                "anonymous",
+                "old",
+                "maiden"
+            ]
+        },
+        "text": "string",
+        "family": "string",
+        "given": "string",
+        "prefix": "string",
+        "suffix": "string",
+        "period": { "$ref": "./period.json" }
+    }
+}

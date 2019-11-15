@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "practitioner.json",
+    "title": "Practitioner",
+    "type": "object",
+    "properties": {
+        "identifier": { "$ref": "elements/identifier.json" },
+        "active": {
+            "description": "Whether this practitioner's record is in active use",
+            "type": "boolean"
+        },
+        "name": { "$ref": "elements/humanName.json" },
+        "telecom": { "$ref": "primitives/contactPoint.json" },
+        "address": { "$ref": "elements/address.json" },
+        "gender": { "$ref": "primitives/gender.json" },
+        "birthDate": { "$ref": "primitives/date.json" },
+        "photo": { "$ref": "elements/attachment.json" },
+        "practitionerRole": {
+            "description": "Roles/organizations the practitioner is associated with",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "managingOrganization": { "$ref": "elements/reference.json" },
+                    "role": { "$ref": "elements/codeableconcept.json" },
+                    "specialty": { "$ref": "elements/codeableconcept.json" },
+                    "period": {
+                        "description": "The period during which the practitioner is authorized to perform in these role(s)",
+                        "item": { "$ref": "elements/period.json" }
+                    },
+                    "location": { "$ref": "elements/reference.json" },
+                    "healthcareService": { "$ref": "elements/reference.json" }
+                }
+            }
+        },
+        "qualification": {
+            "description": "Qualifications obtained by training and certification",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "identifier": { "$ref": "elements/identifier.json" },
+                    "code": { "$ref": "elements/codeableconcept.json" },
+                    "period": {
+                        "description": "Period during which the qualification is valid",
+                        "item": { "$ref": "elements/period.json" }
+                    },
+                    "issuer": { "$ref": "elements/reference.json" }
+                }
+            }
+        },
+        "communication": { "$ref": "elements/codeableconcept.json" }
+    }
+}
