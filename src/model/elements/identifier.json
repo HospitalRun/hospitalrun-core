@@ -1,0 +1,10 @@
+{
+    "properties": {
+        "use": { "$ref": "../primitives/code.json" },
+        "type": { "$ref": "./codeableconcept.json" },
+        "system": "string",
+        "value": "string",
+        "period": { "$ref": "./period.json" },
+        "assigner": { "$ref": "./reference.json" }
+    }
+}

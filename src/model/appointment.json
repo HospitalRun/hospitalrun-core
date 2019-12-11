@@ -21,11 +21,11 @@
         },
         "type": { "$ref": "elements/codeableconcept.json" },
         "reason": { "$ref": "elements/codeableconcept.json" },
-        "priority": { "$ref": "primitives/unsignedint.json" },
+        "priority": { "$ref": "primitives/unsignedInt.json" },
         "description": "string",
         "start": { "$ref": "primitives/instant.json" },
         "end": { "$ref": "primitives/instant.json" },
-        "minutesDuration": { "$ref": "primitives/positiveint.json" },
+        "minutesDuration": { "$ref": "primitives/positiveInt.json" },
         "slot": { "$ref": "elements/reference.json" },
         "comment": {
             "$id": "#/properties/comment",

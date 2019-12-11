@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "contentType": {
+            "type": { "$ref": "../primitives/code.json" },
+            "description": "Mime type of the content, with charset etc."
+        },
+        "language": {
+            "type": { "$ref": "../primitives/code.json" },
+            "description": "Human language of the content (BCP-47)"
+        },
+        "data": "string",
+        "url": { "$ref": "../primitives/uri.json" },
+        "size": { "$ref": "../primitives/unsignedInt.json" },
+        "hash": "string",
+        "title": "string",
+        "creation": { "$ref": "../primitives/dateTime.json" }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "use": {
+            "type": { "$ref": "../primitives/code.json" },
+            "enum": ["home", "work", "temp", "old"]
+        },
+        "type": {
+            "type": { "$ref": "../primitives/code.json" },
+            "enum": ["postal", "physical", "both"]
+        },
+        "text": "string",
+        "line": "string",
+        "city": "string",
+        "district": "string",
+        "state": "string",
+        "postalCode": "string",
+        "country": "string",
+        "period": { "$ref": "./period.json" }
+    }
+}

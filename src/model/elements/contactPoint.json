@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "system": {
+            "enum": [
+                "phone",
+                "fax",
+                "email",
+                "pager",
+                "other"
+            ]
+        },
+        "value": "string",
+        "use": "string",
+        "rank": {
+            "type": { "$ref": "primitives/positiveInt.json" }
+        },
+        "period": { "$ref": "./period.json" }
+    }
+}
