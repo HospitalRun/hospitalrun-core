@@ -1,0 +1,6 @@
+{
+    "properties": {
+        "status": { "$ref": "../primitives/code.json" },
+        "div": { "$ref": "../primitives/xhtml.json" }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "device.json",
+    "title": "Device",
+    "type": "object",
+    "properties": {
+        "identifier": { "$ref": "elements/identifier.json" },
+        "type": { "$ref": "elements/codeableconcept.json" },
+        "note": { "$ref": "elements/annotation.json" },
+        "status": {
+            "type": "string",
+            "enum": [
+                "available",
+                "not-available",
+                "entered-in-error"
+            ]
+        },
+        "manufacturer": "string",
+        "model": "string",
+        "version": "string",
+        "manufactureDate": { "$ref": "primitives/dateTime.json" },
+        "expiry": { "$ref": "primitives/dateTime.json" },
+        "udi": "string",
+        "lotNumber": "string",
+        "owner": { "$ref": "elements/reference.json" },
+        "location": { "$ref": "elements/reference.json" },
+        "patient": { "$ref": "elements/reference.json" },
+        "contact": { "$ref": "elements/contactPoint.json" },
+        "url": { "$ref": "primitives/url.json" }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "condition.json",
+    "title": "Condition",
+    "type": "object",
+    "properties": {
+        "identifier": { "$ref": "elements/identifier.json" },
+        "patient": { "$ref": "elements/reference.json" },
+        "encounter": { "$ref": "elements/reference.json" },
+        "asserter": { "$ref": "elements/reference.json" },
+        "dateRecorded": { "$ref": "primitives/dateTime.json" },
+        "code": { "$ref": "elements/codeableconcept.json" },
+        "category": { "$ref": "elements/codeableconcept.json" },
+        "clinicalStatus": {
+            "type": "string",
+            "enum": [
+                "active",
+                "relapse",
+                "remission",
+                "resolved"
+            ]
+        },
+        "verificationStatus": {
+            "type": "string",
+            "enum": [
+                "provisional",
+                "differential",
+                "confirmed",
+                "refuted",
+                "entered-in-error",
+                "unknown"
+            ]
+        },
+        "severity": { "$ref": "elements/codeableconcept.json" },
+        "onset": { "$ref": "primitives/dateTime.json" },
+        "abatement": { "$ref": "primitives/dateTime.json" },
+        "stage": {
+            "type": "object",
+            "properties": {
+                "summary": { "$ref": "elements/codeableconcept.json" },
+                "assessment": { "$ref": "elements/reference.json" }
+            }
+        },
+        "evidence": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": { "$ref": "elements/codeableconcept.json" },
+                    "detail": { "$ref": "elements/reference.json" }
+                }
+            }
+        },
+        "bodySite": { "$ref": "elements/codeableconcept.json" },
+        "notes": { "$ref": "elements/annotation.json" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "properties": {
+        "id": { "$ref": "./elements/identifier.json" },
+        "meta": { "$ref": "./elements/meta.json" },
+        "implicitRules": { "$ref": "../primitives/uri.json" },
+        "language": { "$ref": "../primitives/code.json" }
+    }
+}
