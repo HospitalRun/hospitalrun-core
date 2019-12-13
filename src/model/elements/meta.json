@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "versionId": { "$ref": "./elements/identifier.json" },
+        "lastUpdated": { "$ref": "../primitives/instant.json" },
+        "profile": { "$ref": "../primitives/uri.json" },
+        "security": { "$ref": "../primitives/coding.json" },
+        "tag": { "$ref": "../primitives/coding.json" }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "value": { "$ref": "./quantity.json" },
+        "comparator": {
+            "type": "object",
+            "enum": [
+                "<", "<=", ">=", ">"
+            ]
+        },
+        "unit": "string",
+        "system": { "$ref": "../primitives/uri.json" },
+        "code": { "$ref": "../primitives/code.json" }
+    }
+}

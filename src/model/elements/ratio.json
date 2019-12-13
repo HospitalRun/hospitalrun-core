@@ -1,0 +1,7 @@
+{
+    "type": "object",
+    "properties": {
+        "numerator": { "$ref": "./quantity.json" },
+        "denominator": { "$ref": "./quantity.json" }
+    }
+}

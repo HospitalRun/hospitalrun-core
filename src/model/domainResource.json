@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "domainResource.json",
+    "title": "Domain Resource",
+    "type": "object",
+    "properties": {
+        "resourceType": "string",
+        "text": {
+            "type": { "$ref": "elements/narrative.json" }
+        },
+        "contained": { "$ref": "elements/resource.json" },
+        "extension": { "$ref": "elements/extension.json" },
+        "modifierExtension": { "$ref": "elements/extension.json" }
+    }
+}

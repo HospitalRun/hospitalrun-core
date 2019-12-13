@@ -1,0 +1,92 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "allergyIntolerance.json",
+    "title": "Allergy Intolerance",
+    "type": "object",
+    "properties": {
+        "identifier": { "$ref": "elements/identifier.json" },
+        "onset": { "$ref": "primitives/dateTime.json" },
+        "recordedDate": { "$ref": "primitives/dateTime.json" },
+        "recorder": { "$ref": "elements/reference.json" },
+        "patient": { "$ref": "elements/reference.json" },
+        "reporter": { "$ref": "elements/reference.json" },
+        "substance": { "$ref": "elements/codeableconcept.json" },
+        "status": {
+            "type": "string",
+            "enum": [
+                "active",
+                "unconfirmed",
+                "confirmed",
+                "inactive",
+                "resolved",
+                "refuted",
+                "entered-in-error"
+            ]
+        },
+        "criticality": {
+            "type": "string",
+            "enum": [
+                "CRITL",
+                "CRITH",
+                "CRITU"
+            ]
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "allergy",
+                "intolerance"
+            ]
+        },
+        "category": {
+            "type": "string",
+            "enum": [
+                "food",
+                "medication",
+                "environment",
+                "other"
+            ]
+        },
+        "lastOccurence": { "$ref": "primitives/dateTime.json" },
+        "note": { "$ref": "elements/annotation.json" },
+        "reaction": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "substance": { "$ref": "elements/codeableconcept.json" },
+                    "certainty": {
+                        "type": "string",
+                        "enum": [
+                            "unlikely",
+                            "likely",
+                            "confirmed"
+                        ]
+                    },
+                    "manifestation": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object"
+                            }
+                        }
+                    },
+                    "lastOccurence": "string",
+                    "onset": { "$ref": "primitives/dateTime.json" },
+                    "severity": {
+                        "type": "string",
+                        "enum": [
+                            "mild",
+                            "moderate",
+                            "severe"
+                        ]
+                    },
+                    "exposureRoute": { "$ref": "elements/codeableconcept.json" },
+                    "note": { "$ref": "elements/annotation.json" }
+                }
+            }
+        }
+    }
+}

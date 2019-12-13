@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "medication.json",
+    "title": "Medication",
+    "type": "object",
+    "properties": {
+        "code": { "$ref": "elements/codeableConcept.json" },
+        "isBrand": "boolean",
+        "manufacturer": { "$ref": "elements/resource.json" },
+        "product": {
+            "type": "object",
+            "properties": {
+                "form": { "$ref": "elements/codeableConcept.json" },
+                "ingredient": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "item":  { "$ref": "elements/reference.json" },
+                            "amount": { "$ref": "elements/ratio.json" }
+                        }
+                    }
+                },
+                "batch": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "lotNumber": "string",
+                            "expirationDate": { "$ref": "primitives/dateTime.json" }
+                        }
+                    }
+                }
+            }
+        },
+        "package": {
+            "type": "object",
+            "properties": {
+                "container": { "$ref": "elements/codeableConcept.json" },
+                "content": {
+                    "type": "object",
+                    "properties": {
+                        "item": { "$ref": "elements/reference.json" },
+                        "amount": { "$ref": "elements/quantity.json" }
+                    }
+                }
+            }
+        }
+    }
+}
