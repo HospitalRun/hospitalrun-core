@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/core": "~8.2.0",
+    "@commitlint/core": "~8.3.3",
     "@commitlint/prompt": "^8.2.0",
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/commit-analyzer": "^6.3.3",
