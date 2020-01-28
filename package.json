@@ -34,7 +34,7 @@
     "@semantic-release/commit-analyzer": "^6.3.3",
     "@semantic-release/git": "^7.0.18",
     "@semantic-release/github": "^5.5.5",
-    "@semantic-release/release-notes-generator": "^7.3.3",
+    "@semantic-release/release-notes-generator": "^9.0.0",
     "@types/pouchdb": "~6.4.0",
     "commitizen": "^4.0.3",
     "commitlint-config-cz": "^0.12.1",
