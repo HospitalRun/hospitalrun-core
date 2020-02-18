@@ -9,12 +9,9 @@ jobs:
       matrix:
         node-version: [12.x, 13.x]
         os: [ubuntu-latest, windows-latest, macOS-latest]
-        # exclude:
-        #   - os: windows-latest
-        #     node-version: 13.x
     steps:
       - run: git config --global core.autocrlf false # this is needed to prevent git changing EOL after cloning on Windows OS
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
@@ -22,18 +19,9 @@ jobs:
       - name: Install with npm
         run: |
           npm install
-      - name: Lint code
-        run: |
-          npm run lint
       - name: Build
         run: |
           npm run build
-      - name: Storybook build
-        run: |
-          npm run build-storybook
-      - name: Run tests
-        run: |
-          npm run test:ci
 
   yarn:
     runs-on: ${{ matrix.os }}
@@ -41,12 +29,9 @@ jobs:
       matrix:
         node-version: [12.x, 13.x]
         os: [ubuntu-latest, windows-latest, macOS-latest]
-        # exclude:
-        #   - os: windows-latest
-        #     node-version: 13.x
     steps:
       - run: git config --global core.autocrlf false # this is needed to prevent git changing EOL after cloning on Windows OS
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
@@ -57,12 +42,6 @@ jobs:
       - name: Install with yarn
         run: |
           yarn install
-      - name: Lint code
-        run: |
-          yarn lint
       - name: Build
         run: |
           yarn build
-      - name: Run tests
-        run: |
-          yarn test:ci
