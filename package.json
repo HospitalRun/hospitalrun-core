@@ -41,7 +41,7 @@
     "cz-conventional-changelog": "^3.0.2",
     "dateformat": "~3.0.3",
     "husky": "~4.2.0",
-    "semantic-release": "^15.14.0"
+    "semantic-release": "^17.0.4"
   },
   "husky": {
     "hooks": {
