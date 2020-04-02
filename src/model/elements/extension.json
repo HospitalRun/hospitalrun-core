@@ -1,5 +1,0 @@
-{
-    "properties": {
-        "url": { "$ref": "../primitives/uri.json" }
-    }
-}

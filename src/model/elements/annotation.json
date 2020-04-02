@@ -1,9 +1,0 @@
-{
-    "type": "object",
-    "properties": {
-        "author": "string",
-        "time": { "$ref": "../primitives/dateTime.json" },
-        "text": "string"
-    }
-}
-
