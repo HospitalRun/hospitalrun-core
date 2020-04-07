@@ -1,13 +1,16 @@
 import { Type, Static } from '@sinclair/typebox'
 import { BaseModelSchema } from './base'
 import { DateTimeSchema } from './primitives/date-time'
-import { TestStatusSchema } from './elements/test-status'
+import { DiagnosticReportStatusSchema } from './elements/test-status'
 
 // reference: https://en.wikipedia.org/wiki/Medical_test
 // imaging or lab requests
-export const TestSchema = Type.Intersect([
+// based on https://www.hl7.org/fhir/diagnosticreport.html
+// uses https://loinc.org
+export const DiagnosticReportSchema = Type.Intersect([
   BaseModelSchema,
   Type.Object({
+    resourceType: Type.Literal('diagnosticReport'),
     date: DateTimeSchema,
     requestedDate: DateTimeSchema,
     requestedById: Type.String({ description: 'Unique _id of the user that requested the test.' }),
@@ -19,11 +22,11 @@ export const TestSchema = Type.Intersect([
       }),
     ),
     reportedBy: Type.Optional(Type.String({})),
-    status: TestStatusSchema,
+    status: DiagnosticReportStatusSchema,
     type: Type.Intersect([Type.Object({ _id: Type.String() }), Type.Map(Type.Any())]), // TODO: use proper test type schema instead of Any
     patientId: Type.String(),
     visitId: Type.Optional(Type.String()),
   }),
 ])
 
-export type Test = Static<typeof TestSchema>
+export type DiagnosticReport = Static<typeof DiagnosticReportSchema>
