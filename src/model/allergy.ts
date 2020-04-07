@@ -7,6 +7,7 @@ import { DateTimeSchema } from './primitives/date-time'
 export const AllergySchema = Type.Intersect([
   BaseModelSchema,
   Type.Object({
+    resourceType: Type.Literal('allergy'),
     description: Type.String(),
     active: Type.Boolean(),
     date: DateTimeSchema,

@@ -8,6 +8,7 @@ import { ICDCodeTypeSchema } from './elements/icd-code'
 export const DiagnosisSchema = Type.Intersect([
   BaseModelSchema,
   Type.Object({
+    resourceType: Type.Literal('diagnosis'),
     active: Type.Boolean(),
     date: DateTimeSchema,
     description: Type.String(),

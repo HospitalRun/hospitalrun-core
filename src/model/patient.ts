@@ -13,6 +13,7 @@ export const PatientSchema = Type.Intersect([
   BaseModelSchema,
   HumanNameSchema,
   Type.Object({
+    resourceType: Type.Literal('patient'),
     code: Type.String({ description: 'Easy readable unique code.' }),
     type: PatientTypeSchema,
     status: Type.String(), // TODO: add status list
