@@ -1,7 +1,7 @@
 import { Type, Static } from '@sinclair/typebox'
 import { BaseModelSchema } from './base'
 import { DateTimeSchema } from './primitives/date-time'
-import { DiagnosticReportStatusSchema } from './elements/test-status'
+import { DiagnosticReportStatusSchema } from './elements/diagnostic-report-status'
 
 // reference: https://en.wikipedia.org/wiki/Medical_test
 // imaging or lab requests
