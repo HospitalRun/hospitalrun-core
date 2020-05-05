@@ -13,6 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "tsc",
     "prepare": "npm run build",
+    "lint": "eslint \"src/**/*.{js,ts}\"",
+    "lint:fix": "eslint \"src/**/*.{js,ts}\" --fix",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -43,7 +45,9 @@
     "cz-conventional-changelog": "^3.0.2",
     "dateformat": "~3.0.3",
     "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "~4.2.0",
     "pouchdb": "^7.1.1",
