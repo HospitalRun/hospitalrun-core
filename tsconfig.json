@@ -1,29 +1,32 @@
 {
-  "include": ["./src/**/*.ts"],
-  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": {
-      "*": ["src/*"]
-    },
     "moduleResolution": "node",
-    "target": "es2017",
+    "target": "es2018",
     "module": "commonjs",
     "outDir": "dist",
-    "pretty": true,
-    "lib": ["esnext", "dom"],
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
     "strict": true,
     "esModuleInterop": true,
-    "noEmitOnError": true,
+    "declaration": true,
     "sourceMap": true,
     "removeComments": true,
+    "newLine": "lf",
+    "noEmitOnError": true,
     "noUnusedLocals": true,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "formatCodeOptions": {
-    "identSize": 2,
-    "tabSize": 2
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   }
 }

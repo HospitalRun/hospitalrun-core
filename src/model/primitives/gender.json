@@ -1,9 +1,0 @@
-{
-    "type": "string",
-    "enum": [
-        "male",
-        "female",
-        "other",
-        "unknown"
-    ]
-}

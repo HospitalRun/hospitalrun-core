@@ -1,9 +1,0 @@
-{
-    "properties": {
-        "system": "string",
-        "version": "string",
-        "code": { "$ref": "../primitives/code.json" },
-        "display": "string",
-        "userSelected": "boolean"
-    }
-}
