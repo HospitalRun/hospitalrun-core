@@ -1,4 +1,5 @@
 import { Type, Static } from '@sinclair/typebox'
+
 import { DateTimeSchema } from '../primitives/date-time'
 
 export const PeriodSchema = Type.Object({ start: DateTimeSchema, end: DateTimeSchema })
