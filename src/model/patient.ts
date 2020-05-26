@@ -2,12 +2,12 @@ import { Type, Static } from '@sinclair/typebox'
 
 import { BaseModelSchema } from './base'
 import { AddressSchema } from './elements/address'
-import { HumanNameSchema } from './elements/human-name'
+import { BloodGroupSchema } from './elements/blood-group'
 import { ContactSchema } from './elements/contact'
+import { HumanNameSchema } from './elements/human-name'
+import { PatientTypeSchema } from './elements/patient-type'
 import { SexSchema } from './elements/sex'
 import { DateTimeSchema } from './primitives/date-time'
-import { BloodGroupSchema } from './elements/blood-group'
-import { PatientTypeSchema } from './elements/patient-type'
 
 export const PatientSchema = Type.Intersect([
   BaseModelSchema,
