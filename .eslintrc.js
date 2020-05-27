@@ -38,6 +38,23 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': ['error', { ignoreParameters: true }],
     '@typescript-eslint/no-empty-function': ['error', { allow: ['arrowFunctions'] }],
     'import/extensions': 'off',
+    'import/order': ["error", {
+      "groups": [
+        "external",
+        ["sibling","parent","internal"],
+        "builtin",
+        "unknown",
+      ],
+      "newlines-between": "always",
+      "alphabetize": {
+        "order": 'asc',
+        "caseInsensitive": true,
+      },
+    }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-wrap-multilines': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'arrow-body-style': ['warn', 'as-needed'],
     'no-param-reassign': ['error', { props: false }],
     'import/prefer-default-export': 'off',

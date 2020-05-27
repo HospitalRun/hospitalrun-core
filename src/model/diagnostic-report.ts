@@ -1,9 +1,10 @@
 import { Type, Static } from '@sinclair/typebox'
+
 import { BaseModelSchema } from './base'
-import { DateTimeSchema } from './primitives/date-time'
 import { DiagnosticReportStatusSchema } from './elements/diagnostic-report-status'
 import { DiagnosticServiceCodesSchema } from './elements/diagnostic-service-codes'
 import { createCodeableConcept } from './primitives/codeable-concept'
+import { DateTimeSchema } from './primitives/date-time'
 
 // reference: https://en.wikipedia.org/wiki/Medical_test
 // imaging or lab requests
