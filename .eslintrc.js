@@ -3,10 +3,9 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    'jest/globals': true,
   },
   extends: [
-    'airbnb',
+    'airbnb/base',
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'prettier/@typescript-eslint',
@@ -28,7 +27,7 @@ module.exports = {
       },
     },
   },
-  plugins: ['react', '@typescript-eslint', 'prettier', 'jest'],
+  plugins: ['@typescript-eslint', 'prettier'],
   ignorePatterns: ['node_modules/'],
   rules: {
     '@typescript-eslint/member-delimiter-style': 'off',

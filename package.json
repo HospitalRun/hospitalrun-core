@@ -15,6 +15,8 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prepare": "npm run build",
+    "lint": "eslint \"src/**/*.{js,ts}\"",
+    "lint:fix": "eslint \"src/**/*.{js,ts}\" --fix",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -56,7 +58,7 @@
     "pouchdb": "^7.1.1",
     "prettier": "^2.0.2",
     "semantic-release": "^17.0.4",
-    "typescript": "^3.7.5"
+    "typescript": "3.8.3"
   },
   "husky": {
     "hooks": {
