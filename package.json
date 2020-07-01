@@ -11,12 +11,13 @@
   "scripts": {
     "commit": "npx git-cz",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "tsc",
+    "build": "npm run clean && tsc -p ./tsconfig.json",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "build:designs": "rimraf dist/design-documents && hospitalrun ddoc build src/design-documents/v1 -c src/design-documents/tsconfig.json",
+    "clean": "rimraf dist",
+    "update": "npx npm-check -u",
     "prepare": "npm run build",
-    "lint": "eslint \"src/**/*.{js,ts}\"",
-    "lint:fix": "eslint \"src/**/*.{js,ts}\" --fix",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -30,23 +31,24 @@
   },
   "homepage": "https://github.com/HospitalRun/hospitalrun-core#readme",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "~9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
     "@commitlint/core": "~9.0.1",
     "@commitlint/prompt": "~9.0.1",
+    "@hospitalrun/cli": "~0.4.4",
     "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/commit-analyzer": "~8.0.1",
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/github": "^7.0.7",
     "@semantic-release/release-notes-generator": "^9.0.0",
     "@types/pouchdb": "~6.4.0",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^2.19.0",
+    "@typescript-eslint/parser": "~3.5.0",
     "commitizen": "^4.0.3",
     "commitlint-config-cz": "^0.13.0",
     "cz-conventional-changelog": "^3.0.2",
     "dateformat": "~3.0.3",
-    "eslint": "^6.8.0",
+    "eslint": "~7.3.1",
     "eslint-config-airbnb": "~18.2.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "~2.22.0",
@@ -58,7 +60,7 @@
     "pouchdb": "^7.1.1",
     "prettier": "^2.0.2",
     "semantic-release": "^17.0.4",
-    "typescript": "3.9.5"
+    "typescript": "~3.9.5"
   },
   "husky": {
     "hooks": {
@@ -72,6 +74,8 @@
     }
   },
   "dependencies": {
-    "@sinclair/typebox": "~0.10.1"
+    "@sinclair/typebox": "~0.10.1",
+    "eslint-plugin-react-hooks": "~4.0.5",
+    "rimraf": "~3.0.2"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "typeRoots": [
+      "./design-functions-context.d.ts"
+    ],
+    "outDir": "../../dist/designs",
+    "sourceMap": false
+  }
+}

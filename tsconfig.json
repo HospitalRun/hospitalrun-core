@@ -4,7 +4,8 @@
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "src/design-documents"
   ],
   "compilerOptions": {
     "moduleResolution": "node",
@@ -18,7 +19,7 @@
     "strict": true,
     "esModuleInterop": true,
     "declaration": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "removeComments": true,
     "newLine": "lf",
     "noEmitOnError": true,

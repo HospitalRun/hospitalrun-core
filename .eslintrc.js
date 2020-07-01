@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['commitlint.config.js'],
+  ignorePatterns: ['dist', 'commitlint.config.js', 'node_modules'],
   env: {
     browser: true,
     es6: true,
@@ -17,7 +17,7 @@ module.exports = {
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json',
+    project: ['./tsconfig.json', 'src/design-documents/tsconfig.json'],
     tsconfigRootDir: './',
   },
   settings: {
@@ -38,20 +38,17 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': ['error', { ignoreParameters: true }],
     '@typescript-eslint/no-empty-function': ['error', { allow: ['arrowFunctions'] }],
     'import/extensions': 'off',
-    'import/order': ["error", {
-      "groups": [
-        "external",
-        ["sibling","parent","internal"],
-        "builtin",
-        "unknown",
-      ],
-      "newlines-between": "always",
-      "alphabetize": {
-        "order": 'asc',
-        "caseInsensitive": true,
+    'import/order': [
+      'error',
+      {
+        groups: ['external', ['sibling', 'parent', 'internal'], 'builtin', 'unknown'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
       },
-    }],
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
+    ],
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-wrap-multilines': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -59,6 +56,10 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'import/prefer-default-export': 'off',
     'no-console': 'off',
+    'no-underscore-dangle': 'off',
+    'no-cond-assign': 'off',
+    'no-plusplus': 'off',
+    'vars-on-top': 'off',
     'eol-last': ['error', 'always'],
     'no-debugger': 'error',
     'no-nested-ternary': 'off',
