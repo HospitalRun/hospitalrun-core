@@ -40,7 +40,7 @@
     "@semantic-release/github": "^7.0.7",
     "@semantic-release/release-notes-generator": "^9.0.0",
     "@types/pouchdb": "~6.4.0",
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
     "@typescript-eslint/parser": "^2.19.0",
     "commitizen": "^4.0.3",
     "commitlint-config-cz": "^0.13.0",
