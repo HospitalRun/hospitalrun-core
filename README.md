@@ -7,7 +7,7 @@
 
 </div>
 
-This repository will host core functions and logics for the HospitalRun server.
+This repository will host all elements shared between Frontend and Backend, including CouchDB design-documents.
 
 <hr />
 
