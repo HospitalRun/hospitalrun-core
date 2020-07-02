@@ -1,0 +1,25 @@
+{
+  "_id": "photo_2_7a7aaffc-3219-457f-92e8-1f13cde32be6",
+  "_rev": "7-232d14673c79d34ab9f713a9f6601565",
+  "data": {
+    "caption": "rayos X original",
+    "coverImage": false,
+    "fileName": "/0226c9ee-b6a9-4d93-862d-2569e20f6684/photos/1591216629890.png",
+    "isImage": true,
+    "localFile": false,
+    "url": "/patientimages/0226c9ee-b6a9-4d93-862d-2569e20f6684/photos/1591216629890.png",
+    "archived": false,
+    "lastModified": "2020-06-03T20:37:09.913Z",
+    "modifiedBy": "Doctor",
+    "patient": "0226c9ee-b6a9-4d93-862d-2569e20f6684",
+    "modifiedFields": {
+      "caption": "2020-06-03T20:37:05.922Z",
+      "fileName": "2020-06-03T20:37:09.913Z",
+      "isImage": "2020-06-03T20:37:05.922Z",
+      "files": "2020-06-03T20:37:05.922Z",
+      "localFile": "2020-06-03T20:37:09.913Z",
+      "url": "2020-06-03T20:37:09.913Z"
+    },
+    "files": {}
+  }
+}

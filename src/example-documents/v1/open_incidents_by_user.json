@@ -1,0 +1,42 @@
+{
+  "_id": "incident_2_2ad66e02-8776-4146-891e-00cd8c5347f7",
+  "_rev": "2-09783b41ca3d7023c9ed2eb4950681ef",
+  "data": {
+    "categoryItem": "Heart",
+    "categoryName": "Health Emergency",
+    "customForms": {},
+    "dateOfIncident": "2020-05-22T04:48:00.863Z",
+    "department": "Emergency",
+    "description": "Arjun was brought into the ED in an unconscious state. A few passers bye brought him in. Patient is still under investigation. Early signs indicate a mild cardiac arrest ",
+    "friendlyId": "i00020",
+    "modifiedByDisplayName": "hradmin",
+    "notificationSend": false,
+    "reportedBy": "hr.hospital.admin@hospitalrun.io",
+    "reportedByDisplayName": "Hospital Admin",
+    "reportedDate": "2020-05-22T04:48:28.863Z",
+    "reportedTo": null,
+    "sentinelEvent": false,
+    "status": "Reported",
+    "archived": false,
+    "lastModified": "2020-05-23T19:18:28.679Z",
+    "modifiedBy": "hradmin",
+    "patient": "237e3039-d4d7-4c93-9928-1718d557a4c5",
+    "notes": [
+      "df880fb7-dba4-4ed3-9098-98842f9e9713"
+    ],
+    "incidentAttachments": [],
+    "modifiedFields": {
+      "customForms": "2020-05-22T04:51:31.987Z",
+      "dateOfIncident": "2020-05-22T04:51:31.987Z",
+      "reportedDate": "2020-05-22T04:51:31.987Z",
+      "reportedBy": "2020-05-22T04:51:31.987Z",
+      "reportedByDisplayName": "2020-05-22T04:51:31.987Z",
+      "categoryName": "2020-05-22T04:51:31.987Z",
+      "department": "2020-05-22T04:51:31.987Z",
+      "categoryItem": "2020-05-22T04:51:31.987Z",
+      "description": "2020-05-22T04:51:31.987Z",
+      "modifiedByDisplayName": "2020-05-23T19:18:28.679Z",
+      "friendlyId": "2020-05-22T04:51:31.987Z"
+    }
+  }
+}

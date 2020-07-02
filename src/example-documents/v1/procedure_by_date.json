@@ -1,0 +1,40 @@
+{
+  "_id": "procedure_2_6ad8b390-2883-4da4-83df-560500ae4975",
+  "_rev": "13-70e04c6f90fd083989b2ec0bdd5a88b3",
+  "data": {
+    "anesthesiaType": "5mg Prpofol",
+    "anesthesiologist": "Dr Cláudio Nunes",
+    "assistant": "Enf. Inês Campizes",
+    "description": "Retirada de Liquido Pericardico  test test",
+    "cptCode": "558269",
+    "location": "Urgências",
+    "notes": "Procidemento correu bem ",
+    "physician": "Dr Daniel Santos",
+    "procedureDate": "2019-07-31T05:00:00.000Z",
+    "timeStarted": "13:20",
+    "timeEnded": "12:29",
+    "archived": false,
+    "lastModified": "2020-02-20T19:48:40.355Z",
+    "modifiedBy": "Doctor",
+    "visit": "69e437e5-c729-4731-8c9d-5c86c2a16176",
+    "charges": [
+      "a40a9081-969c-462e-b441-52c126ec775a",
+      "9bf14030-5129-441e-b235-3b6f559769c7",
+      "e87b6fe4-7377-4518-b7e1-139a32f9823f",
+      "a90199b7-12f9-4951-904d-b217ca07c830"
+    ],
+    "modifiedFields": {
+      "procedureDate": "2020-02-20T19:48:40.355Z",
+      "description": "2019-10-31T17:49:08.863Z",
+      "cptCode": "2019-10-16T12:36:10.015Z",
+      "location": "2019-10-16T12:36:10.015Z",
+      "timeStarted": "2019-10-16T12:36:10.015Z",
+      "timeEnded": "2019-10-31T17:50:41.637Z",
+      "physician": "2019-10-16T12:36:10.015Z",
+      "assistant": "2019-10-16T12:36:10.015Z",
+      "anesthesiologist": "2019-10-16T12:36:10.015Z",
+      "anesthesiaType": "2019-10-16T12:36:10.015Z",
+      "notes": "2019-10-16T12:36:10.015Z"
+    }
+  }
+}

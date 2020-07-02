@@ -1,0 +1,29 @@
+{
+  "_id": "imaging_2_18a9ff47-83f9-4011-82f8-44c16f41287c",
+  "_rev": "5-3b612181db71a2664714516c15fcf85b",
+  "data": {
+    "imagingDate": "2019-10-10T13:42:54.498Z",
+    "notes": "mhbmnbmgjhg",
+    "radiologist": "dghfgfh",
+    "requestedBy": "Doctor",
+    "requestedDate": "2019-10-08T12:11:39.866Z",
+    "result": "guyggh",
+    "status": "Completed",
+    "archived": false,
+    "lastModified": "2019-10-10T13:42:54.499Z",
+    "modifiedBy": "Imaging Technician",
+    "imagingType": "72298001-40fd-45da-a6ec-57070c2ad1b8",
+    "patient": "cda26ce6-3fb2-4722-8ba5-f69b3923ccce",
+    "visit": "8a8574e5-88d1-4f82-8c05-86eacb895199",
+    "charges": [],
+    "modifiedFields": {
+      "status": "2019-10-10T13:42:54.499Z",
+      "requestedBy": "2019-10-08T12:11:39.946Z",
+      "requestedDate": "2019-10-08T12:11:39.946Z",
+      "notes": "2019-10-10T13:42:54.499Z",
+      "radiologist": "2019-10-10T13:42:54.499Z",
+      "result": "2019-10-10T13:42:54.499Z",
+      "imagingDate": "2019-10-10T13:42:54.499Z"
+    }
+  }
+}

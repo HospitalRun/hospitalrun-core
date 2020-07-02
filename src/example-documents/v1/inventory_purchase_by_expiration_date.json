@@ -1,0 +1,37 @@
+{
+  "_id": "invPurchase_2_0164941d-27d3-40a6-9190-fabe3e3ac8ca",
+  "_rev": "1-bc82dc46f7e56959049408a8d35a6a36",
+  "data": {
+    "purchaseCost": 1000,
+    "lotNumber": "",
+    "dateReceived": "2020-01-28T16:00:00.000Z",
+    "originalQuantity": 2000,
+    "currentQuantity": 2000,
+    "expirationDate": null,
+    "expired": false,
+    "location": null,
+    "aisleLocation": null,
+    "giftInKind": false,
+    "inventoryItem": "k4uvfxat_7z",
+    "vendor": "BB",
+    "vendorItemNo": "",
+    "distributionUnit": "capsule",
+    "invoiceNo": "adsg",
+    "archived": false,
+    "lastModified": "2020-01-29T06:47:35.903Z",
+    "modifiedBy": "Hospital Admin",
+    "modifiedFields": {
+      "dateReceived": "2020-01-29T06:47:35.903Z",
+      "vendor": "2020-01-29T06:47:35.903Z",
+      "invoiceNo": "2020-01-29T06:47:35.903Z",
+      "inventoryItem": "2020-01-29T06:47:35.903Z",
+      "lotNumber": "2020-01-29T06:47:35.903Z",
+      "purchaseCost": "2020-01-29T06:47:35.903Z",
+      "vendorItemNo": "2020-01-29T06:47:35.903Z",
+      "distributionUnit": "2020-01-29T06:47:35.903Z",
+      "currentQuantity": "2020-01-29T06:47:35.903Z",
+      "originalQuantity": "2020-01-29T06:47:35.903Z"
+    },
+    "quantityGroups": []
+  }
+}

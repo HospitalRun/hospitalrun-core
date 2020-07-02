@@ -1,0 +1,200 @@
+{
+  "_id": "customForm_2_0405bbdf-9c74-4e90-92ab-f98b330f54d8",
+  "_rev": "43-7c58b59c995987794cf3bd89291e6574",
+  "data": {
+    "alwaysInclude": false,
+    "columns": 3,
+    "formType": "lab",
+    "name": "Pathology Report",
+    "archived": false,
+    "lastModified": "2020-06-28T17:47:51.872Z",
+    "modifiedBy": "hradmin",
+    "modifiedFields": {
+      "name": "2020-06-28T17:47:51.872Z",
+      "formType": "2020-06-28T16:09:27.892Z",
+      "columns": "2020-06-28T16:19:55.258Z"
+    },
+    "fields": [
+      {
+        "classNames": null,
+        "colSpan": 3,
+        "includeOtherOption": false,
+        "label": "Patient Name",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "patientName",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Date of Birth",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "date",
+        "type": "text",
+        "values": ""
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Hospital Number",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "iD#",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": 1,
+        "includeOtherOption": false,
+        "label": "Specimen Case #",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "cASE#",
+        "type": "textarea",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Sex",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "sex",
+        "type": "select",
+        "values": [
+          {
+            "label": "Male"
+          },
+          {
+            "label": "Female"
+          }
+        ]
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Age",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "age",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Date Specimen Obtained",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "dateSpecimenObtained",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Date/s Specimen Processed in Lab",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "date/sSpecimenProcessedInLab",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": 3,
+        "includeOtherOption": false,
+        "label": "Clinical History",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "clinicalHistory",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Body Site",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "bodySite",
+        "type": "select",
+        "values": [
+          {
+            "label": "Skin"
+          }
+        ]
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Procedure",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "procedure",
+        "type": "select",
+        "values": [
+          {
+            "label": "FNA"
+          }
+        ]
+      },
+      {
+        "classNames": null,
+        "colSpan": 3,
+        "includeOtherOption": false,
+        "label": "Diagnosis",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "diagnosis",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": null,
+        "includeOtherOption": false,
+        "label": "Gross Description",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "grossDescription",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": 1,
+        "includeOtherOption": false,
+        "label": "Medical Technologist",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "medicalTechnologist",
+        "type": "text",
+        "values": null
+      },
+      {
+        "classNames": null,
+        "colSpan": 1,
+        "includeOtherOption": false,
+        "label": "Pathologist",
+        "otherOptionLabel": null,
+        "prompt": null,
+        "property": "pathologist",
+        "type": "text",
+        "values": null
+      }
+    ]
+  }
+}

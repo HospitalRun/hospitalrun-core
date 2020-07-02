@@ -1,0 +1,26 @@
+{
+  "_id": "invoice_2_inv00017",
+  "_rev": "1-fef1741645c5c039dbbccab0eaeb8b09",
+  "data": {
+    "billDate": "2019-10-14T17:00:00.000Z",
+    "externalInvoiceNumber": null,
+    "paidTotal": null,
+    "patientInfo": null,
+    "remarks": null,
+    "status": "Draft",
+    "archived": false,
+    "lastModified": "2019-10-15T13:44:45.554Z",
+    "modifiedBy": "Hospital Admin",
+    "patient": null,
+    "paymentProfile": null,
+    "visit": null,
+    "payments": [],
+    "lineItems": [
+      "50945b38-e04e-42cd-97bb-a0fea70e9fc5"
+    ],
+    "modifiedFields": {
+      "billDate": "2019-10-15T13:44:45.554Z",
+      "status": "2019-10-15T13:44:45.554Z"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "invoice_2_inv00317",
+  "_rev": "1-1ad7d0db2c3eceb5b73a03747e509d0a",
+  "data": {
+    "billDate": "2020-05-11T21:00:00.000Z",
+    "externalInvoiceNumber": "",
+    "paidTotal": null,
+    "patientInfo": "سلوم سالم سالمان - P00867",
+    "remarks": null,
+    "status": "Draft",
+    "archived": false,
+    "lastModified": "2020-05-12T19:54:24.474Z",
+    "modifiedBy": "Hospital Admin",
+    "patient": "00cd5e00-1700-4db9-90b6-8ecd49a5a72c",
+    "paymentProfile": null,
+    "visit": "57968297-5c85-488a-b8c5-efe96b8923a5",
+    "payments": [],
+    "lineItems": [
+      "d5255df8-f0cc-49a8-b3ba-63c3e732d528",
+      "5ea6fdc9-53a5-4fd8-8b67-08a9be5e7c3b",
+      "910e9515-f728-447f-979a-6b22bcd0ec4e",
+      "d5ed1d3e-2933-491d-a060-64222ea45cea",
+      "b69adc1c-90c7-4158-9c19-36f43ae4a7c0"
+    ],
+    "modifiedFields": {
+      "billDate": "2020-05-12T19:54:24.474Z",
+      "status": "2020-05-12T19:54:24.474Z",
+      "patientInfo": "2020-05-12T19:54:24.474Z",
+      "externalInvoiceNumber": "2020-05-12T19:54:24.474Z"
+    }
+  }
+}

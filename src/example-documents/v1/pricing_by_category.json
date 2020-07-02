@@ -1,0 +1,20 @@
+{
+  "_id": "pricing_2_8a425a0c-6549-4ea8-8ab7-529cfc2ac821",
+  "_rev": "1-7f0aadf056ad6bef4a9065114bccf51f",
+  "data": {
+    "category": "Imaging",
+    "expenseAccount": null,
+    "name": "CT Scan",
+    "price": null,
+    "pricingType": "Imaging Procedure",
+    "archived": false,
+    "lastModified": "2020-05-21T13:40:49.411Z",
+    "modifiedBy": "Hospital Admin",
+    "pricingOverrides": [],
+    "modifiedFields": {
+      "name": "2020-05-21T13:40:49.411Z",
+      "category": "2020-05-21T13:40:49.411Z",
+      "pricingType": "2020-05-21T13:40:49.411Z"
+    }
+  }
+}

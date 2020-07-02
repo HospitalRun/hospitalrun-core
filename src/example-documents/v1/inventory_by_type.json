@@ -1,0 +1,37 @@
+{
+  "_id": "inventory_2_kbsa6qdr_2q",
+  "_rev": "1-149d68685ad4d5a95cf5c6e0405fb8d8",
+  "data": {
+    "crossReference": "",
+    "description": "Ultra Sound Machine ",
+    "distributionUnit": "box",
+    "friendlyId": "e00001",
+    "inventoryType": "Equipment",
+    "name": "Ultra Scan ",
+    "price": null,
+    "quantity": 2,
+    "rank": "A",
+    "reorderPoint": null,
+    "archived": false,
+    "lastModified": "2020-06-23T18:49:34.351Z",
+    "modifiedBy": "Doctor",
+    "purchases": [
+      "ffd8a35c-de70-4b8b-a558-31a64eecc15e"
+    ],
+    "locations": [
+      "608bf6b2-981c-4639-9305-ee6be4fda91b"
+    ],
+    "modifiedFields": {
+      "name": "2020-06-23T18:49:34.351Z",
+      "rank": "2020-06-23T18:49:34.351Z",
+      "description": "2020-06-23T18:49:34.351Z",
+      "inventoryType": "2020-06-23T18:49:34.351Z",
+      "crossReference": "2020-06-23T18:49:34.351Z",
+      "reorderPoint": "2020-06-23T18:49:34.351Z",
+      "distributionUnit": "2020-06-23T18:49:34.351Z",
+      "quantity": "2020-06-23T18:49:34.351Z",
+      "price": "2020-06-23T18:49:34.351Z",
+      "friendlyId": "2020-06-23T18:49:34.351Z"
+    }
+  }
+}

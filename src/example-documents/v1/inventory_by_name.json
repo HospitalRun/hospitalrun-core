@@ -1,0 +1,38 @@
+{
+  "_id": "inventory_2_k70rooi1_70",
+  "_rev": "3-6e51a844fa01f8d4f81a788892d08aba",
+  "data": {
+    "crossReference": null,
+    "description": "Used to help with or treat Acne",
+    "distributionUnit": "patch",
+    "friendlyId": "m00059",
+    "inventoryType": "Medication",
+    "name": "Accutane",
+    "price": 35.41,
+    "quantity": 85,
+    "rank": "A",
+    "reorderPoint": null,
+    "archived": false,
+    "lastModified": "2020-06-11T01:02:52.695Z",
+    "modifiedBy": "Hospital Admin",
+    "purchases": [
+      "4cc20556-3822-4161-b2f6-8f7f631d4f21",
+      "f90313de-b1a3-4592-ab1d-db0bb7f0431f",
+      "1142dc02-f2b0-4415-ae88-67a13c4f6c1d"
+    ],
+    "locations": [
+      "339cf919-9c0c-4990-a130-e3c28dd29d4d",
+      "e853eb63-d6ad-41ad-b535-e15bdf6c9c5e"
+    ],
+    "modifiedFields": {
+      "name": "2020-02-24T18:01:03.503Z",
+      "rank": "2020-02-24T18:01:03.503Z",
+      "description": "2020-02-24T18:01:03.503Z",
+      "inventoryType": "2020-02-24T18:01:03.503Z",
+      "price": "2020-02-24T18:01:03.503Z",
+      "distributionUnit": "2020-02-24T18:01:03.503Z",
+      "quantity": "2020-06-11T01:02:52.695Z",
+      "friendlyId": "2020-02-24T18:01:03.503Z"
+    }
+  }
+}

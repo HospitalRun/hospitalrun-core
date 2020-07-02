@@ -1,0 +1,61 @@
+{
+  "_id": "visit_2_57968297-5c85-488a-b8c5-efe96b8923a5",
+  "_rev": "6-e15f41881d2be10e24c9facd985c3132",
+  "data": {
+    "customForms": {
+      "bdf23710-8d1c-425e-b3a1-3abc7c570c2b": {
+        "vist1": true
+      }
+    },
+    "dischargeInfo": null,
+    "endDate": "2020-04-15T11:20:17.679Z",
+    "examiner": "Dr. Ken",
+    "hasAppointment": false,
+    "history": null,
+    "historySince": null,
+    "location": "Hospital - 1",
+    "notes": null,
+    "outPatient": true,
+    "paymentState": "pending",
+    "primaryDiagnosis": null,
+    "primaryBillingDiagnosis": null,
+    "primaryBillingDiagnosisId": null,
+    "reasonForVisit": null,
+    "startDate": "2020-04-15T11:15:00.400Z",
+    "status": "CheckedOut",
+    "visitType": "Clinic",
+    "archived": false,
+    "lastModified": "2020-04-15T11:20:17.680Z",
+    "modifiedBy": "Hospital Admin",
+    "patient": "00cd5e00-1700-4db9-90b6-8ecd49a5a72c",
+    "reports": [],
+    "vitals": [
+      "37edc02a-6c27-42f8-8ac9-3f23c422983b"
+    ],
+    "procedures": [],
+    "patientNotes": [
+      "322d6c8c-513b-4dbc-8834-7ba953a98317"
+    ],
+    "medication": [
+      "ff043165-1d1e-4377-8430-c7656bcb559c"
+    ],
+    "labs": [],
+    "imaging": [],
+    "diagnoses": [
+      "02539242-110c-42f1-8f52-d32c78ce56c7"
+    ],
+    "charges": [],
+    "modifiedFields": {
+      "startDate": "2020-04-15T11:17:23.534Z",
+      "visitType": "2020-04-15T11:17:23.534Z",
+      "customForms": "2020-04-15T11:17:23.534Z",
+      "outPatient": "2020-04-15T11:17:23.534Z",
+      "examiner": "2020-04-15T11:17:23.534Z",
+      "location": "2020-04-15T11:17:23.534Z",
+      "status": "2020-04-15T11:20:17.680Z",
+      "hasAppointment": "2020-04-15T11:17:23.534Z",
+      "customForms.bdf23710-8d1c-425e-b3a1-3abc7c570c2b.vist1": "2020-04-15T11:20:17.680Z",
+      "endDate": "2020-04-15T11:20:17.680Z"
+    }
+  }
+}

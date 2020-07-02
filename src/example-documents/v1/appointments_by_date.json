@@ -1,0 +1,26 @@
+{
+   "_id": "appointment_2_d52db17c-0b1c-4dc2-9e86-3885665886d9",
+   "_rev": "2-7279d79b2007bb02d4f133d91c37c97d",
+   "data": {
+       "allDay": true,
+       "provider": null,
+       "location": null,
+       "appointmentType": "Admission",
+       "startDate": "2001-07-06T21:00:00.000Z",
+       "endDate": "2009-03-04T22:00:00.000Z",
+       "notes": null,
+       "status": "Scheduled",
+       "archived": false,
+       "lastModified": "2020-06-14T14:32:58.328Z",
+       "modifiedBy": "Hospital Admin",
+       "patient": "01e99f56-2a44-415b-b693-05361a07d2f8",
+       "visits": [
+       ],
+       "modifiedFields": {
+           "appointmentType": "2020-06-14T14:32:58.328Z",
+           "allDay": "2020-06-14T14:32:58.328Z",
+           "startDate": "2020-06-14T14:32:58.328Z",
+           "endDate": "2020-06-14T14:32:58.328Z"
+       }
+   }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "lab_2_5c5188de-ce5a-4e48-be6d-3aaacf224633",
+  "_rev": "8-1e711b6b50d97192ead8fb2c9ea651b4",
+  "data": {
+    "labDate": "2020-06-11T20:52:12.771Z",
+    "notes": "sdsdsd",
+    "requestedBy": "Doctor",
+    "requestedDate": "2019-10-08T05:28:18.915Z",
+    "result": "sss",
+    "status": "Completed",
+    "archived": false,
+    "lastModified": "2020-06-11T20:52:12.772Z",
+    "modifiedBy": "Lab Technician",
+    "labType": "54848dc4-2a05-4172-8431-b2c8d417932b",
+    "patient": "cda26ce6-3fb2-4722-8ba5-f69b3923ccce",
+    "visit": "8a8574e5-88d1-4f82-8c05-86eacb895199",
+    "charges": [],
+    "modifiedFields": {
+      "status": "2019-10-08T11:40:39.107Z",
+      "requestedBy": "2019-10-08T05:28:19.526Z",
+      "requestedDate": "2019-10-08T05:28:19.526Z",
+      "result": "2019-10-08T11:40:48.594Z",
+      "notes": "2019-10-08T11:40:48.594Z",
+      "labDate": "2020-06-11T20:52:12.772Z"
+    }
+  }
+}

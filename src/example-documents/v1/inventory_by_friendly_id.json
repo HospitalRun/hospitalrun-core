@@ -1,0 +1,34 @@
+{
+  "_id": "inventory_2_k7p4g1fd_l9",
+  "_rev": "5-e1b4095f60279af8875b71fe8aa5f43d",
+  "data": {
+    "crossReference": null,
+    "description": "",
+    "distributionUnit": "tablet",
+    "friendlyId": null,
+    "inventoryType": "Medication",
+    "name": "calpol",
+    "price": null,
+    "quantity": 0,
+    "rank": null,
+    "reorderPoint": 2,
+    "archived": false,
+    "lastModified": "2020-05-21T13:49:38.339Z",
+    "modifiedBy": "Hospital Admin",
+    "purchases": [
+      "d019e16e-5f08-4aed-9dfd-aa57d31bdf61",
+      "294d07a3-1412-441f-ab18-8cf7017c6c3e"
+    ],
+    "locations": [
+      "1756d1bd-416c-48ee-9fce-e0fcabb6b6cc"
+    ],
+    "modifiedFields": {
+      "name": "2020-03-12T19:05:23.217Z",
+      "quantity": "2020-05-21T13:49:38.339Z",
+      "inventoryType": "2020-03-12T19:05:23.217Z",
+      "description": "2020-03-12T19:05:23.217Z",
+      "reorderPoint": "2020-03-12T19:05:23.217Z",
+      "distributionUnit": "2020-03-12T19:05:23.217Z"
+    }
+  }
+}

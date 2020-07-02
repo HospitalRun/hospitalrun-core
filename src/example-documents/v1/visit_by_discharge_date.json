@@ -1,0 +1,52 @@
+{
+  "_id": "visit_2_8038aea0-4ebf-4603-b1ce-5314f3d6fe04",
+  "_rev": "11-be5548f7bbec64285351e89df0f0d2e4",
+  "data": {
+    "dischargeInfo": null,
+    "endDate": "2019-10-08T13:33:00.807Z",
+    "examiner": null,
+    "hasAppointment": false,
+    "history": null,
+    "historySince": null,
+    "location": null,
+    "notes": null,
+    "outPatient": true,
+    "paymentState": "pending",
+    "primaryDiagnosis": null,
+    "primaryBillingDiagnosis": null,
+    "primaryBillingDiagnosisId": null,
+    "reasonForVisit": "Tosse poco produttiva",
+    "startDate": "2019-10-08T13:33:00.807Z",
+    "status": null,
+    "visitType": "Lab",
+    "archived": false,
+    "lastModified": "2019-10-26T11:05:55.700Z",
+    "modifiedBy": "Doctor",
+    "patient": "33594794-c1e0-44e8-9a5f-bd6a9bc0770c",
+    "reports": [],
+    "vitals": [
+      "0fa3c94e-9646-4dde-9cdb-7bf09ea0f606"
+    ],
+    "procedures": [
+      "003395b1-890d-49cc-936a-8d5f1f2e596c"
+    ],
+    "patientNotes": [
+      "6d5feeb2-8721-4034-bfa6-adf1297134b7",
+      "9b725f08-27b2-4810-9e15-58e16789869e"
+    ],
+    "medication": [],
+    "labs": [
+      "84be1c3b-1cda-4066-8e24-de7ca1479583"
+    ],
+    "imaging": [],
+    "diagnoses": [],
+    "charges": [],
+    "modifiedFields": {
+      "startDate": "2019-10-08T13:33:00.810Z",
+      "endDate": "2019-10-08T13:33:00.810Z",
+      "outPatient": "2019-10-08T13:33:00.810Z",
+      "visitType": "2019-10-08T13:33:00.810Z",
+      "reasonForVisit": "2019-10-26T11:05:55.700Z"
+    }
+  }
+}

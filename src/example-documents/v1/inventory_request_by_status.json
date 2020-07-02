@@ -1,0 +1,42 @@
+{
+  "_id": "invRequest_2_2A5251B5-1919-CB55-8757-A53DC057A77E",
+  "_rev": "1-222c0c115dc924e7d90cbde2b6023ebd",
+  "data": {
+    "adjustPurchases": false,
+    "completedBy": "Admin User",
+    "costPerUnit": null,
+    "dateCompleted": "2015-12-01T06:00:00.000Z",
+    "dateRequested": null,
+    "deliveryAisle": null,
+    "deliveryLocation": "Pharmacy",
+    "expenseAccount": null,
+    "markAsConsumed": true,
+    "quantity": 1000000,
+    "quantityAtCompletion": null,
+    "reason": null,
+    "requestedBy": null,
+    "status": "Completed",
+    "transactionType": "Transfer",
+    "lastModified": "2015-12-29T03:08:57.351Z",
+    "modifiedBy": "Admin User",
+    "inventoryItem": "iiqtc6w3_31",
+    "patient": null,
+    "visit": null,
+    "modifiedFields": {
+      "adjustPurchases": "2015-12-29T03:08:57.351Z",
+      "dateCompleted": "2015-12-29T03:08:57.351Z",
+      "quantity": "2015-12-29T03:08:57.351Z",
+      "deliveryLocation": "2015-12-29T03:08:57.351Z",
+      "transactionType": "2015-12-29T03:08:57.351Z",
+      "locationsAffected": "2015-12-29T03:08:57.351Z",
+      "status": "2015-12-29T03:08:57.351Z",
+      "completedBy": "2015-12-29T03:08:57.351Z"
+    },
+    "locationsAffected": [
+      {
+        "name": "No Location",
+        "quantity": "1000000"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "report_2_016a517c-5883-4322-9835-e58d6381fe5a",
+  "_rev": "1-a2c548cd5f7f3d7f93d4e9950dfcdc60",
+  "data": {
+    "reportDate": "2020-03-04T11:28:20.916Z",
+    "customForms": {},
+    "reportType": "Discharge Report",
+    "archived": false,
+    "lastModified": "2020-03-04T11:28:29.497Z",
+    "modifiedBy": "Nurse Manager",
+    "visit": "5270c9cd-f8a7-4492-8ed4-588f620ee7fb",
+    "modifiedFields": {
+      "reportDate": "2020-03-04T11:28:29.497Z",
+      "customForms": "2020-03-04T11:28:29.497Z",
+      "reportType": "2020-03-04T11:28:29.497Z"
+    }
+  }
+}

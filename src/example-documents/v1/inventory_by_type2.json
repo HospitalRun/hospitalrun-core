@@ -1,0 +1,34 @@
+{
+  "_id": "inventory_2_k70qrcht_58",
+  "_rev": "2-b1589558238c530f914014a533fa55fc",
+  "data": {
+    "crossReference": "",
+    "description": null,
+    "distributionUnit": "patch",
+    "friendlyId": "m00021",
+    "inventoryType": "Medication",
+    "name": "dsds",
+    "price": null,
+    "quantity": 23,
+    "rank": "A",
+    "reorderPoint": null,
+    "archived": false,
+    "lastModified": "2020-05-12T11:40:15.889Z",
+    "modifiedBy": "Doctor",
+    "purchases": [
+      "5c6a6aa4-6f3e-4c58-975a-ec33dc921163"
+    ],
+    "locations": [
+      "52629566-10a6-4405-a04a-a1e58b2d80b3"
+    ],
+    "modifiedFields": {
+      "name": "2020-02-24T17:35:49.125Z",
+      "inventoryType": "2020-02-24T17:35:49.125Z",
+      "rank": "2020-02-24T17:35:49.125Z",
+      "crossReference": "2020-02-24T17:35:49.125Z",
+      "distributionUnit": "2020-02-24T17:35:49.125Z",
+      "quantity": "2020-05-12T11:40:15.889Z",
+      "friendlyId": "2020-02-24T17:35:49.125Z"
+    }
+  }
+}

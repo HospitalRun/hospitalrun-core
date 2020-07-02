@@ -1,0 +1,36 @@
+{
+  "_id": "invoice_2_inv00421",
+  "_rev": "3-a9f4ee69bd338890cd95f106ea5cf349",
+  "data": {
+    "billDate": "2020-07-01T22:00:00.000Z",
+    "externalInvoiceNumber": "",
+    "paidTotal": 6,
+    "patientInfo": "Alssandra Stacer - P00694",
+    "remarks": "",
+    "status": "Billed",
+    "archived": false,
+    "lastModified": "2020-07-02T00:16:03.174Z",
+    "modifiedBy": "Hospital Admin",
+    "patient": "02027aef-09dc-4b0d-8256-726b08d10a50",
+    "paymentProfile": "177fda6c-bf8e-40f7-9fae-572ca26dea54",
+    "visit": "e87d3a3e-8183-409a-a7df-9a6df8400907",
+    "payments": [
+      "a9f7b071-7a0f-46fe-b985-398d64917f1d"
+    ],
+    "lineItems": [
+      "8f465690-33fc-4d9e-b508-941c920bdc4b",
+      "c5b4eec4-c2d5-4320-b4d4-91e7c40018fb",
+      "454b08b8-e432-4d1d-8567-b0fc920e5b97",
+      "4607b3a7-a30a-41ae-9c1c-ea1fb64aa023",
+      "1ae7f705-3e49-4f2d-8c0d-dc617f8844bc"
+    ],
+    "modifiedFields": {
+      "billDate": "2020-07-02T00:13:19.331Z",
+      "status": "2020-07-02T00:15:12.895Z",
+      "patientInfo": "2020-07-02T00:13:19.331Z",
+      "externalInvoiceNumber": "2020-07-02T00:13:19.331Z",
+      "remarks": "2020-07-02T00:15:12.895Z",
+      "paidTotal": "2020-07-02T00:16:03.174Z"
+    }
+  }
+}

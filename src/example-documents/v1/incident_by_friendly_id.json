@@ -1,0 +1,48 @@
+{
+   "_id": "incident_2_89d9c785-9d91-4ec0-8931-da64cb15e389",
+   "_rev": "8-939a0bee0d7a69b296855970bffcfdbe",
+   "data": {
+       "categoryItem": null,
+       "categoryName": "new-incident-category",
+       "customForms": {
+           "5b347809-f3dc-4c43-806f-a002aa16b3c1": {
+           }
+       },
+       "dateOfIncident": "2019-12-30T05:03:00.797Z",
+       "department": "ED",
+       "description": "CODE SILVER",
+       "friendlyId": "i00006",
+       "modifiedByDisplayName": "Hospital Admin",
+       "notificationSend": false,
+       "reportedBy": "hr.hospital.admin@hospitalrun.io",
+       "reportedByDisplayName": "Hospital Admin",
+       "reportedDate": "2019-12-30T05:03:16.797Z",
+       "reportedTo": "Connor Hanks",
+       "sentinelEvent": false,
+       "status": "Closed",
+       "archived": false,
+       "lastModified": "2020-03-08T16:31:24.655Z",
+       "modifiedBy": "Hospital Admin",
+       "patient": "cda26ce6-3fb2-4722-8ba5-f69b3923ccce",
+       "notes": [
+           "98632b79-a606-40c3-91dc-dfe687570efe"
+       ],
+       "incidentAttachments": [
+       ],
+       "modifiedFields": {
+           "customForms": "2019-12-30T05:03:59.848Z",
+           "dateOfIncident": "2019-12-30T05:03:59.848Z",
+           "reportedDate": "2019-12-30T05:03:59.848Z",
+           "reportedBy": "2019-12-30T05:03:59.848Z",
+           "reportedByDisplayName": "2019-12-30T05:03:59.848Z",
+           "sentinelEvent": "2019-12-30T05:03:59.848Z",
+           "department": "2019-12-30T05:03:59.848Z",
+           "reportedTo": "2019-12-30T05:03:59.848Z",
+           "categoryName": "2020-02-18T05:40:10.157Z",
+           "description": "2019-12-30T05:03:59.848Z",
+           "modifiedByDisplayName": "2019-12-30T05:03:59.848Z",
+           "friendlyId": "2019-12-30T05:03:59.848Z",
+           "status": "2020-03-08T16:31:24.655Z"
+       }
+   }
+}

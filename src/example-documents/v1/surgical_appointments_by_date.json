@@ -1,0 +1,28 @@
+{
+  "_id": "appointment_2_896e76ea-baca-4347-80cc-9a1b2832cc9f",
+  "_rev": "7-7b402148e40919593ad2f87c221a0bf5",
+  "data": {
+    "allDay": false,
+    "provider": "myself",
+    "location": "1",
+    "appointmentType": "Surgery",
+    "startDate": "2019-11-11T18:00:00.000Z",
+    "endDate": "2019-11-12T04:59:00.000Z",
+    "notes": "some notes",
+    "status": "Scheduled",
+    "archived": false,
+    "lastModified": "2019-11-16T20:59:05.762Z",
+    "modifiedBy": "Business Office",
+    "patient": "376ca74f-6b43-4d8e-99e1-9806ccf28f7d",
+    "visits": [],
+    "modifiedFields": {
+      "appointmentType": "2019-11-10T11:09:23.659Z",
+      "allDay": "2019-11-16T20:59:05.762Z",
+      "startDate": "2019-11-16T20:59:05.762Z",
+      "endDate": "2019-11-16T20:59:05.762Z",
+      "provider": "2019-11-10T11:09:23.659Z",
+      "location": "2019-11-10T11:09:23.659Z",
+      "notes": "2019-11-10T11:09:23.659Z"
+    }
+  }
+}

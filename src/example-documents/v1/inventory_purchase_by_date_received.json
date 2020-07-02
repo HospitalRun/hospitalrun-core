@@ -1,0 +1,33 @@
+{
+  "_id": "invPurchase_2_05760051-8BD1-ACC0-8013-0C59A545FB8D",
+  "_rev": "2-d7477df9559ec794be0e3084f09c310b",
+  "data": {
+    "purchaseCost": 12,
+    "lotNumber": "",
+    "dateReceived": "2015-11-01T05:00:00.000Z",
+    "originalQuantity": 25,
+    "currentQuantity": 0,
+    "expirationDate": null,
+    "expired": false,
+    "location": null,
+    "aisleLocation": null,
+    "giftInKind": false,
+    "inventoryItem": "iiqtim0c_ex",
+    "vendor": "ACME INC",
+    "vendorItemNo": "",
+    "distributionUnit": null,
+    "invoiceNo": null,
+    "lastModified": "2015-12-29T03:46:41.558Z",
+    "modifiedBy": "Admin User",
+    "modifiedFields": {
+      "dateReceived": "2015-12-29T03:12:56.853Z",
+      "purchaseCost": "2015-12-29T03:12:56.853Z",
+      "lotNumber": "2015-12-29T03:12:56.853Z",
+      "vendor": "2015-12-29T03:12:56.853Z",
+      "vendorItemNo": "2015-12-29T03:12:56.853Z",
+      "originalQuantity": "2015-12-29T03:12:56.853Z",
+      "currentQuantity": "2015-12-29T03:46:41.558Z",
+      "inventoryItem": "2015-12-29T03:12:56.853Z"
+    }
+  }
+}

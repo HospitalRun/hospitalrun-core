@@ -1,0 +1,27 @@
+{
+  "_id": "appointment_2_1000d157-daaa-4949-b00c-b36654314465",
+  "_rev": "4-95821e53b5c0067448896ac823b8d44e",
+  "data": {
+    "allDay": false,
+    "provider": "CON ?",
+    "location": null,
+    "appointmentType": "Clinic, Private",
+    "startDate": "2020-05-23T16:00:00.000Z",
+    "endDate": "2020-05-23T16:15:00.000Z",
+    "notes": "Prueba de NAppointment",
+    "status": "Scheduled",
+    "archived": false,
+    "lastModified": "2020-05-22T17:26:33.294Z",
+    "modifiedBy": "Business Office",
+    "patient": "00dd6935-7982-405c-ae40-de0dcf086983",
+    "visits": [],
+    "modifiedFields": {
+      "appointmentType": "2020-05-22T17:25:00.434Z",
+      "allDay": "2020-05-22T17:25:00.434Z",
+      "startDate": "2020-05-22T17:26:33.294Z",
+      "endDate": "2020-05-22T17:26:33.294Z",
+      "provider": "2020-05-22T17:25:13.723Z",
+      "notes": "2020-05-22T17:25:00.434Z"
+    }
+  }
+}

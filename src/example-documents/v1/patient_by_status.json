@@ -1,0 +1,89 @@
+{
+  "_id": "patient_2_157bd5c8-914a-4525-99ed-1404930bfac2",
+  "_rev": "9-c72fed85ea7281e1b14b48d2b1ae98f5",
+  "data": {
+    "admitted": false,
+    "address": null,
+    "address2": null,
+    "address3": null,
+    "address4": null,
+    "bloodType": "A+",
+    "clinic": null,
+    "country": null,
+    "checkedIn": true,
+    "customForms": {
+      "306c3c70-e2d5-4183-a076-2eaedc8e783d": {
+        "gfgg": "option 2"
+      },
+      "6e9c89f8-1d65-4065-9521-a6a976628e79": {},
+      "58fac528-772e-4385-8d30-37bd92300724": {}
+    },
+    "dateOfBirth": "2002-12-04T16:00:00.000Z",
+    "economicClassification": null,
+    "email": null,
+    "externalPatientId": "",
+    "familySupport1": null,
+    "familySupport2": null,
+    "familySupport3": null,
+    "familySupport4": null,
+    "familySupport5": null,
+    "friendlyId": "P00148",
+    "firstName": "Mari",
+    "sex": "Female",
+    "occupation": "",
+    "history": null,
+    "insurance": null,
+    "lastName": "Brown",
+    "livingArrangement": null,
+    "middleName": "",
+    "notes": null,
+    "otherIncome": null,
+    "patientType": "Charity",
+    "parent": null,
+    "phone": null,
+    "placeOfBirth": "US",
+    "referredDate": null,
+    "referredBy": null,
+    "religion": null,
+    "socialActionTaken": null,
+    "socialRecommendation": null,
+    "status": "active",
+    "archived": false,
+    "lastModified": "2020-04-22T06:47:10.700Z",
+    "modifiedBy": "Doctor",
+    "paymentProfile": null,
+    "payments": [
+      "b5364241-7730-4039-9410-56ac3bbe0480"
+    ],
+    "operativePlans": [
+      "d9a99592-5592-46d6-b413-5b0523f4b719"
+    ],
+    "operationReports": [
+      "3458f02c-e2ff-46cf-af32-92e90bb927dd"
+    ],
+    "diagnoses": [
+      "90040830-4a3b-44f1-9611-b6ff72851671",
+      "80b84787-29f5-4e41-93e1-065e5b5b10b2"
+    ],
+    "allergies": [
+      "da33ff1a-12c8-47de-ad34-aa11321243d4"
+    ],
+    "modifiedFields": {
+      "customForms": "2019-12-12T08:41:03.495Z",
+      "firstName": "2019-12-12T08:41:03.495Z",
+      "middleName": "2019-12-12T08:41:03.495Z",
+      "lastName": "2019-12-12T08:41:03.495Z",
+      "sex": "2019-12-12T08:41:03.495Z",
+      "dateOfBirth": "2020-04-22T06:47:10.700Z",
+      "placeOfBirth": "2019-12-12T08:41:03.495Z",
+      "occupation": "2019-12-12T08:41:03.495Z",
+      "patientType": "2019-12-12T08:41:03.495Z",
+      "status": "2019-12-12T08:41:03.495Z",
+      "externalPatientId": "2019-12-12T08:41:03.495Z",
+      "bloodType": "2019-12-12T08:41:03.495Z",
+      "friendlyId": "2019-12-12T08:41:03.495Z",
+      "customForms.306c3c70-e2d5-4183-a076-2eaedc8e783d.gfgg": "2019-12-12T08:49:55.202Z",
+      "checkedIn": "2019-12-12T08:49:55.202Z"
+    }
+  }
+}

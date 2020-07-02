@@ -1,0 +1,25 @@
+{
+  "_id": "photo_2_011b8cc0-a804-42d1-9077-d5d677e32a2d",
+  "_rev": "4-de809181ce83f3c977ebfcd44f31e092",
+  "data": {
+    "caption": "tets",
+    "coverImage": false,
+    "fileName": "/8fd74f65-b816-492f-8e71-94793fa5267f/photos/1587971792913.png",
+    "isImage": true,
+    "localFile": false,
+    "url": "/patientimages/8fd74f65-b816-492f-8e71-94793fa5267f/photos/1587971792913.png",
+    "archived": false,
+    "lastModified": "2020-04-27T07:16:34.867Z",
+    "modifiedBy": "Doctor",
+    "patient": "8fd74f65-b816-492f-8e71-94793fa5267f",
+    "modifiedFields": {
+      "fileName": "2020-04-27T07:16:34.867Z",
+      "isImage": "2020-04-27T07:16:26.342Z",
+      "caption": "2020-04-27T07:16:26.342Z",
+      "files": "2020-04-27T07:16:26.342Z",
+      "localFile": "2020-04-27T07:16:34.867Z",
+      "url": "2020-04-27T07:16:34.867Z"
+    },
+    "files": []
+  }
+}

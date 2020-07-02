@@ -1,0 +1,46 @@
+{
+   "_id": "incident_2_ffa53734-b13b-454e-b1a8-f2f7635ef574",
+   "_rev": "7-9de526898601fd70ae65e656c8b39562",
+   "data": {
+       "categoryItem": "Rheumatic",
+       "categoryName": "Fever",
+       "customForms": {
+       },
+       "dateOfIncident": "2020-05-12T03:54:00.399Z",
+       "department": "Screening",
+       "description": "Needle broken during injection",
+       "friendlyId": "i00016",
+       "modifiedByDisplayName": "Hospital Admin",
+       "notificationSend": false,
+       "reportedBy": "hr.doctor@hospitalrun.io",
+       "reportedByDisplayName": "Doctor",
+       "reportedDate": "2020-05-12T03:54:10.399Z",
+       "reportedTo": "",
+       "sentinelEvent": false,
+       "status": "Closed",
+       "archived": false,
+       "lastModified": "2020-05-15T02:54:45.951Z",
+       "modifiedBy": "Hospital Admin",
+       "patient": "085f9574-52b4-4a93-84ae-8696b02ce9c5",
+       "notes": [
+           "b6855fe6-742e-4934-9649-27e1848db6e0"
+       ],
+       "incidentAttachments": [
+       ],
+       "modifiedFields": {
+           "customForms": "2020-05-12T03:54:43.091Z",
+           "dateOfIncident": "2020-05-12T03:54:43.091Z",
+           "reportedDate": "2020-05-12T03:54:43.091Z",
+           "reportedBy": "2020-05-12T03:54:43.091Z",
+           "reportedByDisplayName": "2020-05-12T03:54:43.091Z",
+           "categoryName": "2020-05-12T03:54:43.091Z",
+           "categoryItem": "2020-05-12T03:54:43.091Z",
+           "description": "2020-05-12T03:54:43.091Z",
+           "department": "2020-05-12T03:54:43.091Z",
+           "modifiedByDisplayName": "2020-05-15T02:53:57.435Z",
+           "friendlyId": "2020-05-12T03:54:43.091Z",
+           "reportedTo": "2020-05-15T02:54:38.310Z",
+           "status": "2020-05-15T02:54:45.951Z"
+       }
+   }
+}
