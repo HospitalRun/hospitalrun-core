@@ -19,6 +19,7 @@
     "strict": true,
     "esModuleInterop": true,
     "declaration": true,
+    "skipLibCheck": true,
     "sourceMap": false,
     "removeComments": true,
     "newLine": "lf",
