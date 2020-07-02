@@ -18,6 +18,5 @@ jobs:
         run: npm install
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}  
-        run: npx semantic-release          
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release
