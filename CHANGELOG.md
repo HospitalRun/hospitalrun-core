@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/HospitalRun/hospitalrun-core/compare/v1.0.0...v1.1.0) (2020-07-02)
+
+
+### Bug Fixes
+
+* **ci:** fix release action ([cb21204](https://github.com/HospitalRun/hospitalrun-core/commit/cb21204b777ab29374e5633e10b427cc659e8dd8))
+
+
+### Features
+
+* **couchdb:** add example documents ([6497403](https://github.com/HospitalRun/hospitalrun-core/commit/649740327ab90343424f438816b4c69d5cc2740a))
+
 # 1.0.0 (2020-07-02)
 
 
