@@ -1,0 +1,26 @@
+{
+  "title": "Name",
+  "type": "object",
+  "properties": {
+    "prefix": {
+      "type": "string",
+      "minimum": 0
+    },
+    "givenName": {
+      "type": "string",
+      "minimum": 0
+    },
+    "familyName": {
+      "type": "string",
+      "minimum": 0
+    },
+    "suffix": {
+      "type": "string",
+      "minimum": 0
+    },
+    "fullName": {
+      "type": "string",
+      "minimum": 0
+    }
+  }
+}
