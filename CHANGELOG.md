@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/HospitalRun/hospitalrun-core/compare/v1.1.0...v1.2.0) (2020-09-09)
+
+
+### Features
+
+* add name type and build steps for generating types from json-schema ([85e15aa](https://github.com/HospitalRun/hospitalrun-core/commit/85e15aa0bc9c9133ed011db062602488283338b0))
+
 # [1.1.0](https://github.com/HospitalRun/hospitalrun-core/compare/v1.0.0...v1.1.0) (2020-07-02)
 
 
