@@ -11,10 +11,9 @@
   "scripts": {
     "commit": "npx git-cz",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "npm run clean && tsc -p ./tsconfig.json",
+    "build": "npm run clean && npx json-schema-to-typescript -i src/schemas/**/*.json -o dist/types",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
-    "build:designs": "rimraf dist/design-documents && hospitalrun ddoc build src/design-documents/v1 -c src/design-documents/tsconfig.json",
     "clean": "rimraf dist",
     "update": "npx npm-check -u",
     "prepare": "npm run build",
@@ -80,7 +79,6 @@
     }
   },
   "dependencies": {
-    "@sinclair/typebox": "~0.10.1",
     "eslint-plugin-react-hooks": "~4.1.0",
     "rimraf": "~3.0.2"
   }
