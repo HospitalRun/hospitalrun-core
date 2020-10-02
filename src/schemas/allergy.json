@@ -1,0 +1,15 @@
+{
+  "title": "Allergy",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minimum": "1"
+    },
+    "name": {
+      "type": "string",
+      "minimum": "1"
+    }
+  },
+  "additionalProperties": false
+}
