@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+    timezone: Europe/Rome
+  open-pull-requests-limit: 10
+  labels:
+  - dependencies
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.0
+  - dependency-name: eslint-plugin-jest
+    versions:
+    - 24.2.0
+  - dependency-name: "@commitlint/config-conventional"
+    versions:
+    - 12.0.0
+  - dependency-name: husky
+    versions:
+    - 5.1.0
