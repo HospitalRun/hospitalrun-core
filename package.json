@@ -34,7 +34,7 @@
   "devDependencies": {
     "@commitlint/cli": "~14.1.0",
     "@commitlint/config-conventional": "~13.2.0",
-    "@commitlint/prompt": "~13.2.0",
+    "@commitlint/prompt": "~14.1.0",
     "@semantic-release/changelog": "~6.0.0",
     "@semantic-release/commit-analyzer": "~9.0.1",
     "@semantic-release/git": "~10.0.0",
