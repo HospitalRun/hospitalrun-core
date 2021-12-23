@@ -54,7 +54,7 @@
     "eslint-plugin-jest": "~25.3.0",
     "eslint-plugin-jsx-a11y": "~6.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "~7.27.0",
+    "eslint-plugin-react": "~7.28.0",
     "husky": "~7.0.0",
     "lint-staged": "~12.1.2",
     "pouchdb": "^7.1.1",
