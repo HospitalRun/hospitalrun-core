@@ -59,7 +59,7 @@
     "lint-staged": "~12.1.2",
     "pouchdb": "^7.1.1",
     "prettier": "^2.0.2",
-    "semantic-release": "^18.0.0",
+    "semantic-release": "^19.0.2",
     "typescript": "~4.2.2"
   },
   "husky": {
