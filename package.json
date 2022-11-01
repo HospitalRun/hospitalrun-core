@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/HospitalRun/hospitalrun-core#readme",
   "devDependencies": {
-    "@commitlint/cli": "~16.1.0",
+    "@commitlint/cli": "~17.2.0",
     "@commitlint/config-conventional": "~16.0.0",
     "@commitlint/prompt": "~16.1.0",
     "@semantic-release/changelog": "~6.0.0",
